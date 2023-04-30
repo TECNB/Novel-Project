@@ -39,6 +39,6 @@
 | MyBatis-Plus | 3.5.3   | MyBatis 增强工具 | [进入](https://baomidou.com/)                   | [进入](https://baomidou.com/pages/24112f/)                   |
 | MySQL        | 8.0     | 数据库服务       | [进入](https://www.mysql.com/)                  | [进入](https://docs.oracle.com/en-us/iaas/mysql-database/doc/getting-started.html) |
 | Lombok       | 1.18.24 | 简化对象封装工具 | [进入](https://github.com/projectlombok/lombok) | [进入](https://projectlombok.org/features/all)               |
-| Jsoup        | 1.10.2  | 静态页面爬虫框架 | [进入](https://shardingsphere.apache.org/)      | [进入]([jsoup: Java HTML parser, built for HTML editing, cleaning, scraping, and XSS safety](https://jsoup.org/)) |
+| Jsoup        | 1.10.2  | 静态页面爬虫框架 | [进入](https://shardingsphere.apache.org/)      | [进入](https://jsoup.org/) |
 
 ## 
