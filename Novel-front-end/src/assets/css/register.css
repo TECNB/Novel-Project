@@ -1,0 +1,54 @@
+.register{
+    display:flex;
+    height: 400px;
+    margin: auto 250px;
+    margin-top: 20px;
+}
+.register-area{
+    background-color: #fff;
+    width: 60%;
+    display: flex;
+    justify-content: center;/*居中对齐*/
+    align-items: center; /*居中对齐*/
+}
+.register-area-content{
+    text-align: center;
+}
+.register-area-content>.zhuce{
+    width: 80%;
+    margin-top: 20px;
+    font-size: large;
+    height: 40px;
+}
+.register-area-content>.yanzhengma{
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+.register-area-content>.el-input{
+    margin-top: 20px;
+    width: 80%;
+}
+.register-area-content>.el-input:nth-child(4){
+    width: 57%;
+
+}
+
+.lijidenglu{
+    display: flex;
+    background-color: #fff;
+    width: 40%;
+    justify-content: center;/*居中对齐*/
+    align-items: center; /*居中对齐*/
+}
+.lijidenglu-content{
+    text-align: center;
+    margin-bottom: 120px;
+    border-left: 1px solid #c3dfea;
+    width: 90%;
+}
+.lijidenglu-content>.el-button{
+    margin-top: 20px;
+    width: 200px;
+}

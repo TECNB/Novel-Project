@@ -1,0 +1,71 @@
+/* 总体Css样式 */
+.BookContent {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.BookContent-center {
+    width: 1100px;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 25%);
+    margin-top: 20px;
+}
+.content-top-color{
+    background-color: #ffffff;
+    min-width: 1100px;
+    height: 70px;
+}
+/* info部分Css样式 */
+.txt-title{
+    text-align: center;
+    margin-top: 30px;
+}
+.txt-title>h1{
+    padding-top: 10px;
+}
+.txt-info>p{
+    display: inline-block;
+    width: 25%;
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+}
+/* content部分 */
+.txt-content{
+    padding: 30px 50px;
+    line-height: 40px;
+}
+
+/* 按钮的Css样式 */
+.bt-pre,.bt-catalog,.bt-next{
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+.bt-pre:active,.bt-catalog:active,.bt-next:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+        inset -4px -4px 12px #ffffff;
+}
+.txt-bt{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /*两端对齐*/
+    padding: 0 40px;
+}
+.txt-bt>a{
+    width: 30%;
+}
+.txt-bt>a>button{
+    width: 100%;
+}
+.chapter-all{
+    font-size: small;
+}

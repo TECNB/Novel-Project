@@ -1,0 +1,74 @@
+.bookcategory {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.categorylist {
+    margin-top: 10px;
+    width: 1100px;
+    height: 350px;
+    border: 5px solid #c3dfea;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /*两端对齐*/
+    flex-wrap: wrap; /*来让元素进行折行排列，使得每行的元素都不超过容器的宽度*/
+}
+
+.category-content {
+    height: 44%;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.category-content-center {
+    height: 100%;
+    width: 33.3%;
+}
+
+.category-top {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+
+.category-img {
+    height: 100%;
+}
+
+.category-img>img {
+    height: 100%;
+}
+
+.category-txt {
+    width: 70%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.category-name>a {
+    color: #000;
+}
+
+.category-author>a {
+    color: #888;
+    font-size: small;
+}
+
+.category-txt>dl>dd>a {
+    color: #888;
+}
+
+.category-txt>dl {
+    width: 100%;
+    height: 100%;
+}
+
+.category-inro {
+    font-size: small;
+    margin-top: 10px;
+    height: 60%;
+    overflow: hidden;
+}

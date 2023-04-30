@@ -1,0 +1,43 @@
+.login{
+    display:flex;
+    height: 400px;
+    margin: auto 250px;
+    margin-top: 20px;
+}
+.login-area{
+    background-color: #fff;
+    width: 60%;
+    display: flex;
+    justify-content: center;/*居中对齐*/
+    align-items: center; /*居中对齐*/
+}
+.login-area-content{
+    text-align: center;
+}
+.login-area-content>.el-button{
+    width: 100%;
+    margin-top: 20px;
+    font-size: large;
+    height: 40px;
+}
+.login-area-content>.el-input{
+    margin-top: 20px;
+}
+
+.lijizhuce{
+    display: flex;
+    background-color: #fff;
+    width: 40%;
+    justify-content: center;/*居中对齐*/
+    align-items: center; /*居中对齐*/
+}
+.lijizhuce-content{
+    text-align: center;
+    margin-bottom: 120px;
+    border-left: 1px solid #c3dfea;
+    width: 90%;
+}
+.lijizhuce-content>.el-button{
+    margin-top: 20px;
+    width: 200px;
+}

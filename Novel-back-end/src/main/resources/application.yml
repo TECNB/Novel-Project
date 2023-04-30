@@ -1,0 +1,45 @@
+#--------------------------通用配置-------------------------
+spring:
+  application:
+    # 应用名
+    name: novel
+server:
+  port: 80
+--- #---------------------数据库配置---------------------------
+spring:
+  datasource:
+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/novel?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: Tec@258011
+--- #---------------------自定义配置----------------------------
+novel:
+  # 跨域配置
+  cors:
+    # 允许跨域的域名
+    allow-origins:
+      - http://localhost:1024
+      - http://localhost:8888
+      - http://localhost:8080
+
+
+--- #配置mapper xml文件的路径
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase=true:
+spring:
+  jackson:
+    generator:
+      write_numbers_as_strings: true
+
+logging:
+  level:
+    com.tec.vuepractice.dao.mapper: debug
+
+
+

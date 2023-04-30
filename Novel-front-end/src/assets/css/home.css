@@ -1,0 +1,170 @@
+.home-center{
+    width: 1100px;
+    margin: 0 auto;
+}
+.hotcontent {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.hot-list {
+    display: flex;
+    width: 700px;
+    height: 350px;
+    border: 5px solid #c3dfea;
+    padding-bottom: 10px;
+    background-color: #fff;
+    flex-wrap: wrap; /*来让元素进行折行排列，使得每行的元素都不超过容器的宽度*/
+    
+}
+
+.tuijian-list {
+
+    margin-left: 20px;
+    border: 5px solid #c3dfea;
+    width: 380px;
+    height: 350px;
+    background-color: #fff;
+    
+}
+
+.novelslist {
+    margin-top: 10px;
+    width: 1100px;
+    height: 350px;
+    border: 5px solid #c3dfea;
+    background-color: #fff;
+}
+
+.items_img{
+    width: 45%;
+    height: 158px;
+}
+.items_img>a>img {
+    width: 116px;
+    height: 158px;
+}
+.home-bookName{
+    color: black;
+}
+.author{
+    color: #888;
+}
+.intro>a{
+    color: #888;
+
+}
+.itemList{
+    width: 50%;
+    height: 50%;
+    overflow:hidden;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+.items_txt{
+    width: 52%;
+    font-size: small;
+}
+.home-bookName{
+    display: block;
+    font-size: medium;
+}
+.intro{
+    height: 70px;
+    overflow:hidden;
+}
+
+.tuijian-list-content{
+    padding: 10px;
+    height: 90%;
+}
+.tuijian-list>p{
+    background-color: #e1eced;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px; 
+    border-bottom: 1px solid #ddd;
+}
+.tuijian-list-list{
+    height: 35px;
+    font-size: small;
+    line-height: 35px;
+}
+.tuijian-list-list>ul>li{
+    border-bottom: 1px solid #ddd;
+}
+.tuijian-list-categoryName{
+    color: #888;
+}
+.tuijian-list-bookName{
+    margin-left: 10px;
+}
+.tuijian-list-authorName{
+    float: right;
+}
+.tuijian-list-bookName>a{
+    color:black;
+}
+.tuijian-list-authorName>a{
+    color:black;
+}
+
+/* 分类的Css样式 */
+.fenlei-content{
+    height: 42%;
+    margin-left: 10px;
+}
+.fenlei-content-center{
+    height: 100%;
+    width: 50%;
+}
+.novelslist{
+    display: flex;
+}
+.fenlei-top{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.fenlei-img{
+    height: 100%;
+}
+.fenlei-img>img{
+    height: 100%;
+}
+.fenlei-txt{
+    width: 70%;
+    height: 100%;
+    margin-left: 20px;
+}
+.fenlei-name>a{
+    color: #000;
+}
+.fenlei-author>a{
+    color: #888;
+    font-size: small;
+}
+.fenlei-txt>dl>dd>a{
+    color: #888;
+}
+.fenlei-txt>dl{
+    width: 100%;
+    height: 100%;
+}
+.fenlei-inro{
+    font-size: small;
+    margin-top: 10px;
+    height: 60%;
+    overflow: hidden;
+}
+.fenlei-content-center>h3{
+    background-color: #f6f8fe;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding-left: 25px;
+}
+

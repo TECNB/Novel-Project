@@ -1,0 +1,43 @@
+#--------------------------????-------------------------
+spring:
+  application:
+    # ???
+    name: crawl
+server:
+  port: 81
+--- #---------------------?????---------------------------
+spring:
+  datasource:
+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/crawl?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: Tec@258011
+--- #---------------------?????----------------------------
+novel:
+  # ????
+  cors:
+    # ???????
+    allow-origins:
+      - http://localhost:1024
+      - http://localhost:8888
+      - http://localhost:8080
+
+
+--- #??mapper xml?????
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase=true:
+spring:
+  jackson:
+    generator:
+      write_numbers_as_strings: true
+
+logging:
+  level:
+    com.tec.crawl.dao.mapper: debug
+
